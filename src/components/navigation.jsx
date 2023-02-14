@@ -1,5 +1,7 @@
 import React from "react";
 
+import logo from '../img/logo.png'
+
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -18,7 +20,8 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            {/* More Beauty Center Taksim */}
+            <img src={logo} alt="Logo" width="50" height="60" style={{ marginTop : "-20px" }}/>
           </a>{" "}
         </div>
 
